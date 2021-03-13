@@ -7,5 +7,5 @@ services:
     container_name: pdf_swap
     volumes:
       - ./:/home/docker/work
-    tty: true
-    command: /bin/bash
+    # tty: true
+    command: python swap.py
