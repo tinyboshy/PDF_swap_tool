@@ -5,3 +5,7 @@ RUN apt update && \
 
 RUN pip install --upgrade pip && \
     pip install pypdf2
+
+WORKDIR /home/docker/work
+
+CMD [ "python", "swap.py" ]

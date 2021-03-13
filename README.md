@@ -3,7 +3,7 @@
 ## Usage
 ### 1. clone repo
 ```
-git clonehttps://github.com/tinyboshy/PDF_swap_tool.git
+git clone https://github.com/tinyboshy/PDF_swap_tool.git
 ```
 ### 2. Place the pdf file in the same hierarchy as swap.py
 ### 3. edit parameter
