@@ -1,0 +1,11 @@
+version: "3"
+services:
+  pdf_swap:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pdf_swap
+    volumes:
+      - ./:/home/docker/work
+    tty: true
+    command: /bin/bash
