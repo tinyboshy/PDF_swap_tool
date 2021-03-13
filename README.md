@@ -12,5 +12,5 @@ git clone https://github.com/tinyboshy/PDF_swap_tool.git
 - Path of the pdf file
 ### 4. Build docker container and run
 ```
-docker-compose up -d --build
+docker-compose run --rm pdf_swap
 ```
