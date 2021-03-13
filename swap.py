@@ -4,7 +4,7 @@ all_page_count = 148
 swap_start_page = 2
 swap_end_page = 147
 
-file_path = 'example.pde'
+file_path = 'example.pdf'
 
 source_pdf = open(file_path, 'rb')
 source = PyPDF2.PdfFileReader(source_pdf, strict=False)
